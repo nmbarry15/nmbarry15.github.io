@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/full-bloom.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    border-bottom: solid 5px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.custom-toggler {
+    color: #cccccc;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+#content-container {
+    border: solid 3px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hr{
+    border: 1.5px solid;
+}
+
+#label{
+    bottom: 10px;
+}
+
+#footer {
+    border-top-style: solid;
+    border-top-width: 5px;
+    font-size: small;
+    flex-shrink: 0;
+}

@@ -3,16 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>About Me</title>
+    <title>Contact</title>
 
 </head>
 
 <body class="h-100 m-0 p-0">
-
     <!-- Start Nav -->
     <div class="sticky-top bg-white border-secondary" id="header">
         <div class="container p-0">
@@ -44,25 +43,25 @@
     <div class="content">
         <div class="container bg-white border-secondary" id="content-container">
             <div class="row pr-5 pl-3">
-                <h2 class="mb-0 font-weight-bold text-info">About Me</h2>
+                <h2 class="mb-0 font-weight-bold text-info">Contact</h2>
             </div>
-            <hr class="mt-1 border-secondary"  id="hr">
+            <hr class="mt-1 border-secondary" id="hr">
             <div class="row pr-5 pl-5">
-                <div class="info">
-                    <img src="images/profile-pic.jpg" class=" rounded img-responsive float-left m-2 mr-3" alt="Nicole Barry">
-
-                    <p class="p-2 text-secondary">My name is Nicole Barry. I am originally from Rochester, NY and moved to Charlotte, NC three years
-                        ago. I went to college at St. John Fisher College in Rochester and earned a bachelor's degree in
-                        adolescent inslusive education and math. I decided I wanted to be a teacher in 5th grade. I love
-                        learning math, so I put the two together.
-                    </p>
-
-                    <p class="p-2 text-secondary">When I moved to Charlotte, I became a high school math teacher and swim coach. I enjoyed teaching
-                        students and helping them understand math in a way they did not before. Recently, I decided I wanted
-                        to pursue another passion of mine in software/web development. I am excited for this journey to learn
-                        more about web and software development.
-                    </p>
-                </div>
+                <form class="text-secondary" style="width: 100%">
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="name" class="form-control" id="inputName" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea type="message" class="form-control" id="inputMessage" rows="5" placeholder="Enter Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary bg-info border-info">Submit</button>
+                </form>
             </div>
         </div>
     </div>
